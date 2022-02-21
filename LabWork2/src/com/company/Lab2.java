@@ -1,7 +1,10 @@
 package com.company;
 import java.util.Scanner;
-public class Lab2{
-    //Данный метод принимает введённые пользователем координаты точек, затем создаёт 3 объекта типа Point3d
+/**
+ * Класс решает задачу поиска площади треугольника по введённым пользователем координатам
+ **/
+public class Lab2 {
+    /** Данный метод принимает введённые пользователем координаты точек, затем создаёт 3 объекта типа Point3d **/
     public static void main(String[] args){
         Point3d dot1 = null;
         Point3d dot2 = null;
@@ -30,16 +33,16 @@ public class Lab2{
         else
             System.out.println("Площадь треугольника = " + computeArea(dot1, dot2, dot3));
     }
-    //Данный метод находит площадь треугольника через формулу Герона
+    /** Данный метод находит площадь треугольника через формулу Герона **/
     public static double computeArea(Point3d dot1, Point3d dot2, Point3d dot3){
         //Найдём длины сторон треугольника
-        double a = dot1.distanceTo(dot2);
-        double b = dot2.distanceTo(dot3);
-        double c = dot3.distanceTo(dot1);
+        double a = Point3d.distanceTo(dot1, dot2);
+        double b = Point3d.distanceTo(dot2, dot3);
+        double c = Point3d.distanceTo(dot1, dot3);
         //Найдём периметр треугольника
         double perimeter = (a + b + c) / 2;
         //Найдём площадь треугольника
-        double area = Math.sqrt((per * (per - a) * (per - b) * (per - c)));
+        double area = Math.sqrt((perimeter * (perimeter - a) * (perimeter - b) * (perimeter - c)));
         return area;
     }
 }
