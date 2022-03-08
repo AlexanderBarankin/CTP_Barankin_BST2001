@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="107b63a8-def8-4425-93d0-1bebc7b217ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Lab2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Point2d.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Point3d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabWork2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Point2d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Point3d.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
