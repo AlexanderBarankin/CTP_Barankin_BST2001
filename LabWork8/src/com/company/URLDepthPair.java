@@ -4,11 +4,10 @@ package com.company;
 public class URLDepthPair {
     private final String url;
     private final int depth;
-    private int visited;
+
     public URLDepthPair(String URL, int dep) {
         url = URL;
-        depth=dep;
-        visited=1;
+        depth = dep;
     }
 
     public String getURL() {
@@ -19,11 +18,9 @@ public class URLDepthPair {
         return depth;
     }
 
-    public void incrementVisited() {
-        visited++;
-    }
-
+    @Override
     public String toString() {
-        return "<URL href=\"" + url + "\" visited=\"" + visited + "\" depth=\"" + depth + "\" \\>";
+        return "depth: " + depth + " URL: ["+ url + "]";
     }
 }
+
